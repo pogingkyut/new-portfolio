@@ -23,6 +23,18 @@ import {
   jobit,
   tripguide,
   threejs,
+  kone,
+  topi,
+  arw,
+  mattex,
+  python,
+  django,
+  profile,
+  blog,
+  inventory,
+  portfolio,
+  todoapp,
+  webscrape,
 } from "../assets";
 
 export const navLinks = [
@@ -81,20 +93,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -105,109 +109,142 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "python",
+    icon: python,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "django",
+    icon: django,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Repair Tech",
+    company_name: "KPI Elevators Inc",
+    icon: kone,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2019 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Major repair for elevator and escalator",
+      "Testing and commissioning",
+      "Rebuild",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "ERE Tech",
+    company_name: "Transitions Optical Philippines Inc",
+    icon: topi,
+    iconBg: "white",
+    date: "July 2017 - September 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spareparts lifespan tracking",
+      "Data gathering and analysis",
+      "Preventive maintenance for production machineries",
+      "Parts failure analysis, Root cause analysis",
+      "CMMS admin",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Mechanical Tech",
+    company_name: "Ahmad Al Tazi Rockwool Factory",
+    icon: arw,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2016 - Mar 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Installation of Cupola and rockwool assembly machine",
+      "Line maintenance, monitoring, troubleshooting and repair",
+      "Overall incharge in mechanical team",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Mechanical Tech",
+    company_name: "Mattex Dubai LLC",
+    icon: mattex,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "April 2012 - October 2014",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Line monitoring, data gathering, machine inspection",
+      "Preventive maintenance of plastic extrusion machineries, winding machineries, HVAC equipments",
+      "BMS monitoring and control",
+      "Rebuild and repair of motors, rollers, and rolling equipments",
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "Testimonial part",
+    name: "Name",
+    designation: "Position",
+    company: "Company",
+    image: profile,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "Testimonial part",
+    name: "Name",
+    designation: "Position",
+    company: "Company",
+    image: profile,
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "Testimonial part",
+    name: "Name",
+    designation: "Position",
+    company: "Company",
+    image: profile,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Blog App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows user to post, update, delete, comment, like a post of other users blog",
     tags: [
       {
-        name: "react",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: blog,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Webscrape App",
+    description:
+      "Web application that does automation in data gathering of my personal payroll records, create a csv table and make screenshot of my personal payslip",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "selenium",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pandas",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webscrape,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Portfolio",
+    description: "A reactjs app with 3D animation using threejs",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -215,49 +252,45 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: portfolio,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "TodoApp",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A reactjs frontend web app with django backend that allows user to create, modify and delete a task",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: todoapp,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Inventory App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Django web app that allows user to add, update, delete, manage tools for repair team",
     tags: [
       {
-        name: "nextjs",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
+    image: inventory,
     source_code_link: "https://github.com/",
   },
 ];

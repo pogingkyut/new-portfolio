@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import profile from "./profile.png";
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -21,14 +23,28 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import python from "./tech/python.png";
+import django from "./tech/django.png";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import kone from "./company/kone.png";
+import topi from "./company/topi.jpg";
+import arw from "./company/arw.png";
+import mattex from "./company/mattex.jpg";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import blog from "./projects/blog.png";
+import inventory from "./projects/inventory.png";
+import portfolio from "./projects/portfolio.png";
+import todoapp from "./projects/todoapp.png";
+import webscrape from "./projects/webscrape.png";
 
 export {
   logo,
@@ -59,4 +75,16 @@ export {
   carrent,
   jobit,
   tripguide,
+  kone,
+  topi,
+  arw,
+  mattex,
+  python,
+  django,
+  profile,
+  blog,
+  inventory,
+  portfolio,
+  todoapp,
+  webscrape,
 };
